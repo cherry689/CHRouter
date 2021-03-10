@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CE794497B141E2D3F2084FC4CF9A4A0 /* Pods-CHRouter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1EB81F1B7475DC821D966F80A3E32DF /* Pods-CHRouter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47E3F011CA5D13925529E3E073F39C7C /* Pods-CHRouter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F63B73511F4AC819E028D6E6095504 /* Pods-CHRouter_Example-dummy.m */; };
+		484BD579E1DE8E1E3D2CE7A99D8BD5A5 /* CHRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BB30A7D4E0A6C505188C3718FE4C84 /* CHRouter-dummy.m */; };
+		4BCEB771593F7D6A4F7EA36098052586 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4ECA302787FDB61A1D83DCF08A619A31 /* Pods-CHRouter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44AF35D8B0B25946FA83F994AE5AC5E1 /* Pods-CHRouter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EE50DE592570D7FAE96CCC8D3858B39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		609D9344228E4473DC3E5D525709DE93 /* CHRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A08F14C9CBE276A65E7A54D7E6CCE3F2 /* CHRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7334011A41BEB218CD43E6BE02F3460C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8A29F468352AB33BED85FED0A81A2A53 /* Pods-CHRouter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3A7911CF6BD674E1ED493244C56A23 /* Pods-CHRouter_Tests-dummy.m */; };
+		AEE6333A32B0D31B8D4B5A621733D3EA /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA31196C51DDFB055B059F56772619E /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CD7260CD50170158E6E948CA7F43F6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90E5A1F2451EFD2CDCEF23DE9BC49A5F;
+			remoteInfo = CHRouter;
+		};
+		B7AA7D8EE57B62F8AA0D90CE2D9E911D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF476E0F082BE9A66F6ABCB584A47811;
+			remoteInfo = "Pods-CHRouter_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		303BB5A1A1075937D34C83C2BC6D1946 /* Pods-CHRouter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHRouter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3658C84355874FBEF95B07FD838B4E83 /* CHRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CHRouter.framework; path = CHRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		445789D0AE5B8D030D1FA800D3CEDFD4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		44AF35D8B0B25946FA83F994AE5AC5E1 /* Pods-CHRouter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHRouter_Tests-umbrella.h"; sourceTree = "<group>"; };
+		51F63B73511F4AC819E028D6E6095504 /* Pods-CHRouter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHRouter_Example-dummy.m"; sourceTree = "<group>"; };
+		5364817526849F9A9809129A1987D7BF /* Pods-CHRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		59FA03E08551DF227E7ED03646F338C7 /* CHRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CHRouter.modulemap; sourceTree = "<group>"; };
+		5D8816DE859B0E0D39EAE5160CB09606 /* CHRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHRouter-prefix.pch"; sourceTree = "<group>"; };
+		71BB30A7D4E0A6C505188C3718FE4C84 /* CHRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHRouter-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7DEC20C456DCC9BEE484559B8CC85B68 /* Pods-CHRouter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHRouter_Tests-Info.plist"; sourceTree = "<group>"; };
+		85015F5976C0E8ACDBBCAFCF4FF8B730 /* CHRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CHRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		89A13F1F388D8A8A85BA2880B10699C2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8AA31196C51DDFB055B059F56772619E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CHRouter/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		927FA46A46A45CE5F2C8160705D46EEA /* Pods-CHRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		92967D59A82127026508F9CDF4EE6604 /* CHRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHRouter.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A08F14C9CBE276A65E7A54D7E6CCE3F2 /* CHRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHRouter-umbrella.h"; sourceTree = "<group>"; };
+		AABE9F85D2E08238DE9251A67D846F88 /* Pods_CHRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CHRouter_Example.framework; path = "Pods-CHRouter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3A7911CF6BD674E1ED493244C56A23 /* Pods-CHRouter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHRouter_Tests-dummy.m"; sourceTree = "<group>"; };
+		AC7B7DDCADBEE4BCD922B7866A617D26 /* Pods-CHRouter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHRouter_Example-Info.plist"; sourceTree = "<group>"; };
+		AC98DBBB969B4B842C18B01B4EB8477B /* Pods_CHRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CHRouter_Tests.framework; path = "Pods-CHRouter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF91351B0C207FAF24C8B1A86818B591 /* Pods-CHRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B41606F1D2A22DAACE59171098564128 /* CHRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CHRouter-Info.plist"; sourceTree = "<group>"; };
+		B571C589C9EA30D2722459C83F10A8B4 /* Pods-CHRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C12B79F043572C925620CBD9CCE73477 /* CHRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHRouter.debug.xcconfig; sourceTree = "<group>"; };
+		C7E3AD6D8606FE3D272174006F1ADB56 /* Pods-CHRouter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHRouter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CDF42555A037ACAD41DE6F451642AB68 /* Pods-CHRouter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHRouter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D0B53DB3EE0B0DEF2D93A496C620153B /* Pods-CHRouter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CHRouter_Example.modulemap"; sourceTree = "<group>"; };
+		D6F99C186C566594913A76BC8AFE0BB5 /* Pods-CHRouter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHRouter_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D917F741ED429901905874319499998E /* Pods-CHRouter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CHRouter_Tests.modulemap"; sourceTree = "<group>"; };
+		E1EB81F1B7475DC821D966F80A3E32DF /* Pods-CHRouter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHRouter_Example-umbrella.h"; sourceTree = "<group>"; };
+		FEE898C289BC3AD33F0B51083282AB39 /* Pods-CHRouter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHRouter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CB71B3DFBE961ECB153F00236ECD4C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7334011A41BEB218CD43E6BE02F3460C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7123BA510F91EA6BDF0F2AF33CBF72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EE50DE592570D7FAE96CCC8D3858B39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F848E8C3F6FE97430A813E5F2D568B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCEB771593F7D6A4F7EA36098052586 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A033A898166748A4391C5AEF3B92DCD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				85015F5976C0E8ACDBBCAFCF4FF8B730 /* CHRouter.podspec */,
+				89A13F1F388D8A8A85BA2880B10699C2 /* LICENSE */,
+				445789D0AE5B8D030D1FA800D3CEDFD4 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		46CBE7ADF4432EBFAB8BE13732DEC73E /* CHRouter */ = {
+			isa = PBXGroup;
+			children = (
+				8AA31196C51DDFB055B059F56772619E /* ReplaceMe.swift */,
+				3A033A898166748A4391C5AEF3B92DCD /* Pod */,
+				B971ABE50F97B9ED0AA39A0E715F1BBB /* Support Files */,
+			);
+			name = CHRouter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7B286F504EFE2EC9B2BFCA7A502A8029 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2D6E0B87CB316A6FCB8DBA1B2600218 /* Pods-CHRouter_Example */,
+				8EB83A27EAC7521FD7F95D54DAB63585 /* Pods-CHRouter_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8AA896D9327B92282F6B05F19C58F2D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3658C84355874FBEF95B07FD838B4E83 /* CHRouter.framework */,
+				AABE9F85D2E08238DE9251A67D846F88 /* Pods_CHRouter_Example.framework */,
+				AC98DBBB969B4B842C18B01B4EB8477B /* Pods_CHRouter_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EB83A27EAC7521FD7F95D54DAB63585 /* Pods-CHRouter_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D917F741ED429901905874319499998E /* Pods-CHRouter_Tests.modulemap */,
+				CDF42555A037ACAD41DE6F451642AB68 /* Pods-CHRouter_Tests-acknowledgements.markdown */,
+				C7E3AD6D8606FE3D272174006F1ADB56 /* Pods-CHRouter_Tests-acknowledgements.plist */,
+				AB3A7911CF6BD674E1ED493244C56A23 /* Pods-CHRouter_Tests-dummy.m */,
+				7DEC20C456DCC9BEE484559B8CC85B68 /* Pods-CHRouter_Tests-Info.plist */,
+				44AF35D8B0B25946FA83F994AE5AC5E1 /* Pods-CHRouter_Tests-umbrella.h */,
+				AF91351B0C207FAF24C8B1A86818B591 /* Pods-CHRouter_Tests.debug.xcconfig */,
+				5364817526849F9A9809129A1987D7BF /* Pods-CHRouter_Tests.release.xcconfig */,
+			);
+			name = "Pods-CHRouter_Tests";
+			path = "Target Support Files/Pods-CHRouter_Tests";
+			sourceTree = "<group>";
+		};
+		B971ABE50F97B9ED0AA39A0E715F1BBB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				59FA03E08551DF227E7ED03646F338C7 /* CHRouter.modulemap */,
+				71BB30A7D4E0A6C505188C3718FE4C84 /* CHRouter-dummy.m */,
+				B41606F1D2A22DAACE59171098564128 /* CHRouter-Info.plist */,
+				5D8816DE859B0E0D39EAE5160CB09606 /* CHRouter-prefix.pch */,
+				A08F14C9CBE276A65E7A54D7E6CCE3F2 /* CHRouter-umbrella.h */,
+				C12B79F043572C925620CBD9CCE73477 /* CHRouter.debug.xcconfig */,
+				92967D59A82127026508F9CDF4EE6604 /* CHRouter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CHRouter";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				DDC7A1F38B02D7646F7A8EDC7B0D236E /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8AA896D9327B92282F6B05F19C58F2D9 /* Products */,
+				7B286F504EFE2EC9B2BFCA7A502A8029 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDC7A1F38B02D7646F7A8EDC7B0D236E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46CBE7ADF4432EBFAB8BE13732DEC73E /* CHRouter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F2D6E0B87CB316A6FCB8DBA1B2600218 /* Pods-CHRouter_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D0B53DB3EE0B0DEF2D93A496C620153B /* Pods-CHRouter_Example.modulemap */,
+				303BB5A1A1075937D34C83C2BC6D1946 /* Pods-CHRouter_Example-acknowledgements.markdown */,
+				FEE898C289BC3AD33F0B51083282AB39 /* Pods-CHRouter_Example-acknowledgements.plist */,
+				51F63B73511F4AC819E028D6E6095504 /* Pods-CHRouter_Example-dummy.m */,
+				D6F99C186C566594913A76BC8AFE0BB5 /* Pods-CHRouter_Example-frameworks.sh */,
+				AC7B7DDCADBEE4BCD922B7866A617D26 /* Pods-CHRouter_Example-Info.plist */,
+				E1EB81F1B7475DC821D966F80A3E32DF /* Pods-CHRouter_Example-umbrella.h */,
+				927FA46A46A45CE5F2C8160705D46EEA /* Pods-CHRouter_Example.debug.xcconfig */,
+				B571C589C9EA30D2722459C83F10A8B4 /* Pods-CHRouter_Example.release.xcconfig */,
+			);
+			name = "Pods-CHRouter_Example";
+			path = "Target Support Files/Pods-CHRouter_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3127FA74AB40BBBD57BDDE34716C0CD7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				609D9344228E4473DC3E5D525709DE93 /* CHRouter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AFC0ACBAD15E90A431C9591433E1EDA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE794497B141E2D3F2084FC4CF9A4A0 /* Pods-CHRouter_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6848C1727D9D0132E36323B0F19FED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECA302787FDB61A1D83DCF08A619A31 /* Pods-CHRouter_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		47856F1B4E84849894C3CC56A6D2354D /* Pods-CHRouter_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D44596154112C14CBD5CD6DB28E18DC5 /* Build configuration list for PBXNativeTarget "Pods-CHRouter_Tests" */;
+			buildPhases = (
+				CA6848C1727D9D0132E36323B0F19FED /* Headers */,
+				87A7BF40A3ABAC9E04D174B506DDF292 /* Sources */,
+				4F848E8C3F6FE97430A813E5F2D568B0 /* Frameworks */,
+				0B266A084BC44B9A4BF095DE90B30600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D44BCF546AE28CAACABD0212D18A91C1 /* PBXTargetDependency */,
+			);
+			name = "Pods-CHRouter_Tests";
+			productName = "Pods-CHRouter_Tests";
+			productReference = AC98DBBB969B4B842C18B01B4EB8477B /* Pods_CHRouter_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		90E5A1F2451EFD2CDCEF23DE9BC49A5F /* CHRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C21CF9DE25175D11FAA726ED15B9C81 /* Build configuration list for PBXNativeTarget "CHRouter" */;
+			buildPhases = (
+				3127FA74AB40BBBD57BDDE34716C0CD7 /* Headers */,
+				F37B322D7BE006DA41A0F5B9B62C2E58 /* Sources */,
+				0CB71B3DFBE961ECB153F00236ECD4C1 /* Frameworks */,
+				D53BB581D04336E99C4C19212333E11E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHRouter;
+			productName = CHRouter;
+			productReference = 3658C84355874FBEF95B07FD838B4E83 /* CHRouter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF476E0F082BE9A66F6ABCB584A47811 /* Pods-CHRouter_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7F7A11570DA385D6A299954D0CB9B7 /* Build configuration list for PBXNativeTarget "Pods-CHRouter_Example" */;
+			buildPhases = (
+				7AFC0ACBAD15E90A431C9591433E1EDA /* Headers */,
+				CD26C0984BAF20606E216A18AC2D00C6 /* Sources */,
+				4D7123BA510F91EA6BDF0F2AF33CBF72 /* Frameworks */,
+				8EC2AC20C79517E79A52BB591C52AB08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0495A84F80DBD72783D4585EC507649 /* PBXTargetDependency */,
+			);
+			name = "Pods-CHRouter_Example";
+			productName = "Pods-CHRouter_Example";
+			productReference = AABE9F85D2E08238DE9251A67D846F88 /* Pods_CHRouter_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8AA896D9327B92282F6B05F19C58F2D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90E5A1F2451EFD2CDCEF23DE9BC49A5F /* CHRouter */,
+				DF476E0F082BE9A66F6ABCB584A47811 /* Pods-CHRouter_Example */,
+				47856F1B4E84849894C3CC56A6D2354D /* Pods-CHRouter_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B266A084BC44B9A4BF095DE90B30600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC2AC20C79517E79A52BB591C52AB08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D53BB581D04336E99C4C19212333E11E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87A7BF40A3ABAC9E04D174B506DDF292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A29F468352AB33BED85FED0A81A2A53 /* Pods-CHRouter_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD26C0984BAF20606E216A18AC2D00C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E3F011CA5D13925529E3E073F39C7C /* Pods-CHRouter_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37B322D7BE006DA41A0F5B9B62C2E58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484BD579E1DE8E1E3D2CE7A99D8BD5A5 /* CHRouter-dummy.m in Sources */,
+				AEE6333A32B0D31B8D4B5A621733D3EA /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0495A84F80DBD72783D4585EC507649 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CHRouter;
+			target = 90E5A1F2451EFD2CDCEF23DE9BC49A5F /* CHRouter */;
+			targetProxy = 1CD7260CD50170158E6E948CA7F43F6C /* PBXContainerItemProxy */;
+		};
+		D44BCF546AE28CAACABD0212D18A91C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CHRouter_Example";
+			target = DF476E0F082BE9A66F6ABCB584A47811 /* Pods-CHRouter_Example */;
+			targetProxy = B7AA7D8EE57B62F8AA0D90CE2D9E911D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		46EE1305F80521F81D5DD56FAE958320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B571C589C9EA30D2722459C83F10A8B4 /* Pods-CHRouter_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHRouter_Example/Pods-CHRouter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHRouter_Example/Pods-CHRouter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F8AEF5C82EFE6E90D2AB2ADED4E44AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5364817526849F9A9809129A1987D7BF /* Pods-CHRouter_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHRouter_Tests/Pods-CHRouter_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHRouter_Tests/Pods-CHRouter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5721E78F0264A47B77CF4D2A948006BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 927FA46A46A45CE5F2C8160705D46EEA /* Pods-CHRouter_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHRouter_Example/Pods-CHRouter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHRouter_Example/Pods-CHRouter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D71FD264D512FCE49D21B8D110DFAC1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C12B79F043572C925620CBD9CCE73477 /* CHRouter.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CHRouter/CHRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHRouter/CHRouter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CHRouter/CHRouter.modulemap";
+				PRODUCT_MODULE_NAME = CHRouter;
+				PRODUCT_NAME = CHRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB824439C2E06B56DABF629C81655FD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF91351B0C207FAF24C8B1A86818B591 /* Pods-CHRouter_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHRouter_Tests/Pods-CHRouter_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHRouter_Tests/Pods-CHRouter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4CE9E9FFEE6D7A1FDF1A86E9A4AAC38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92967D59A82127026508F9CDF4EE6604 /* CHRouter.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CHRouter/CHRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHRouter/CHRouter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CHRouter/CHRouter.modulemap";
+				PRODUCT_MODULE_NAME = CHRouter;
+				PRODUCT_NAME = CHRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C21CF9DE25175D11FAA726ED15B9C81 /* Build configuration list for PBXNativeTarget "CHRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D71FD264D512FCE49D21B8D110DFAC1D /* Debug */,
+				F4CE9E9FFEE6D7A1FDF1A86E9A4AAC38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE7F7A11570DA385D6A299954D0CB9B7 /* Build configuration list for PBXNativeTarget "Pods-CHRouter_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5721E78F0264A47B77CF4D2A948006BA /* Debug */,
+				46EE1305F80521F81D5DD56FAE958320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D44596154112C14CBD5CD6DB28E18DC5 /* Build configuration list for PBXNativeTarget "Pods-CHRouter_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB824439C2E06B56DABF629C81655FD8 /* Debug */,
+				4F8AEF5C82EFE6E90D2AB2ADED4E44AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

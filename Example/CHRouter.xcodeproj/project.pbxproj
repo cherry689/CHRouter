@@ -29,12 +29,12 @@
 
 /* Begin PBXFileReference section */
 		0CE97DB54FD0AACB9DC2135E /* Pods-CHRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHRouter_Tests.release.xcconfig"; path = "Target Support Files/Pods-CHRouter_Tests/Pods-CHRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		13529569FDCFB94776F1B86E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		13529569FDCFB94776F1B86E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		24A148248E7E2DC6FF175721 /* Pods-CHRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHRouter_Example.release.xcconfig"; path = "Target Support Files/Pods-CHRouter_Example/Pods-CHRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
-		41AC9BCD896E0A8C06F557DA /* CHRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CHRouter.podspec; path = ../CHRouter.podspec; sourceTree = "<group>"; };
+		41AC9BCD896E0A8C06F557DA /* CHRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CHRouter.podspec; path = ../CHRouter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4691FFA994B12B6F64B2BA25 /* Pods-CHRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHRouter_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CHRouter_Tests/Pods-CHRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5FAD1195F2B452799596B7AD /* Pods-CHRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHRouter_Example.debug.xcconfig"; path = "Target Support Files/Pods-CHRouter_Example/Pods-CHRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5FC56DF14B7FE670B0B4873F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5FC56DF14B7FE670B0B4873F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CHRouter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHRouter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 				4691FFA994B12B6F64B2BA25 /* Pods-CHRouter_Tests.debug.xcconfig */,
 				0CE97DB54FD0AACB9DC2135E /* Pods-CHRouter_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

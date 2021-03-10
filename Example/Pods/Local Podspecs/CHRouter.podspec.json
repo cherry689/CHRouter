@@ -1,0 +1,22 @@
+{
+  "name": "CHRouter",
+  "version": "0.1.0",
+  "summary": "A short description of CHRouter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mingren/CHRouter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mingren": "853355024@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/mingren/CHRouter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CHRouter/Classes/**/*"
+}

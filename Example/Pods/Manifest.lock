@@ -1,0 +1,16 @@
+PODS:
+  - CHRouter (0.1.0)
+
+DEPENDENCIES:
+  - CHRouter (from `../`)
+
+EXTERNAL SOURCES:
+  CHRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CHRouter: 66768a70664b6a7df007f3387df9e0232a454f46
+
+PODFILE CHECKSUM: 44912d2a955255a1fb77ab06853035b09da9b5e5
+
+COCOAPODS: 1.10.0
