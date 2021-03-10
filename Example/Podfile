@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'CHRouter_Example' do
+  pod 'CHRouter', :path => '../'
+
+  target 'CHRouter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
