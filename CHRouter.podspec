@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CHRouter'
-  s.version          = '0.1.2'
-  s.summary          = 'CHRouter支持OC和Swift混编工程，实现了一行代码跳转任意控制器（可传参数）以进行组件之间的跳转通信，不需要再引用头文件，减少耦合和依赖.'
-  s.description      = 'CHRouter是一个iOS原生开发路由器，可以进行组件之间的跳转通信.'
+  s.version          = '0.0.1'
+  s.summary          = 'CHRouter支持纯OC、纯Swift以及OC和Swift混编工程，实现了一行代码跳转任意控制器（可携带参数、可回调参数等）以进行组件之间的跳转通信，不需要再引用大量的头文件，减少组件之间的耦合和依赖.'
+  s.description      = 'CHRouter支持纯OC、纯Swift以及OC和Swift混编工程，实现了一行代码跳转任意控制器（可携带参数、可回调参数等）以进行组件之间的跳转通信，不需要再引用大量的头文件，减少组件之间的耦合和依赖.'
   s.homepage         = 'https://github.com/cherry689/CHRouter'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'cherry689' => '853355024@qq.com' }
